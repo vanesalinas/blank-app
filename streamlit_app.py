@@ -37,12 +37,13 @@ st.write(
 
 leche = st.selectbox(
     "¿Cómo tomás el café?",
-    ["solo", "con leche"]
+    ["Selecciona una opcion", "solo", "con leche"]
 )
 
 notas = st.selectbox(
     "¿Qué notas de sabor te gustan?",
     [
+        "Selecciona una opcion", 
         "vainilla",
         "chocolate",
         "frutilla",
@@ -54,7 +55,7 @@ notas = st.selectbox(
 
 intensidad = st.selectbox(
     "¿Qué intensidad preferís?",
-    ["suave", "medio", "intenso"]
+    ["Selecciona una opcion", "suave", "medio", "intenso"]
 )
 
 if st.button("Encontrar mi café"):
